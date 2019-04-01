@@ -4,12 +4,19 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <p class="subTitle">Comandos para trabajar con un repositorio</p>
+        <p class="subTitle">Comandos practicos de GIT</p>
+        <figure>
+            <img src="imagenes/Git.png" alt="Git.png">
+        </figure>
         <ul>
             <dt>git init</dt>
             <dd>Crea un repositorio local en la carpeta en la que se esta posicionado</dd>
+            <dt>git clone "URL-repositorio"</dt>
+            <dd>Permite clonar un repositorio en especifico</dd> 
             <dt>git log</dt>
-            <dd>Permite revisar la actividad en el repositorio</dd>
+            <dd>Permite revisar los commits realizados a un repositorio.</dd>
+            <dt>git status</dt>
+            <dd>Permite ver los archivos el status de los archivos del proyecto.</dd>
             <dt>git add "nombre-archivo"</dt>
             <dd>Agrega los archivos seleccionados del workin storage al stagging storage</dd>
             <dt>git commit -m "mensaje que describe la modificación"</dt> 
@@ -20,6 +27,10 @@
             <dd>Permite moverse a la rama con el nombre indicado</dd>
             <dt>git checkout -b "nombre-rama"</dt>
             <dd>Permite crear y moverse a la rama con el nombre indicado</dd>
+            <dt>git remote add origin "url del repositorio remoto"</dt>
+            <dd>Permite enlazar un repositorio local con uno remoto</dd>
+            <dt>git push origin "nombre-rama"</dt>
+            <dd>Permite subir una rama local nueva a un repositorio remoto</dd>
         </ul>
     </body>
 </html>

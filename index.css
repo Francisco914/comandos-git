@@ -1,16 +1,23 @@
 body{
-    background-color: darkslategrey;
+    background-color: #55868c;
 }
 .subTitle{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 20px;
 }
+img{
+    height: 80px;
+    width: 80px;
+}
+figure{
+    text-align: center;
+}
 dt{
+    margin-top: 15px;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
 }
 dd{
-    padding-bottom: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
